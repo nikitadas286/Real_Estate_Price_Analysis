@@ -25,9 +25,8 @@
 - Support data-informed discussions about real estate pricing.
 
 
-```
 
-> The CSV must be available locally beside the notebook when running it. If you also export the notebook to HTML, you can add `Real_Estate_Analytics.html` to the repository as a static report.
+> The CSV must be available locally beside the notebook when running it. If you also export the notebook to HTML, you can add `Real_Estate_Analytics.html` to the repository as a static report.```
 
 ## 🧰 Tools and Techniques
 
