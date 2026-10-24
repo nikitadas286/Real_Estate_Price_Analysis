@@ -2,8 +2,6 @@
 
 ### Exploratory Data Analysis of King County House Sales Using Python
 
-A beginner-friendly **data analytics project** exploring how property characteristics relate to house sale prices. The project uses **Python, NumPy, Pandas, Matplotlib, and Seaborn** to clean a housing dataset, visualize patterns, and communicate insights relevant to buyers, sellers, and real estate professionals.
-
 > **Project scope:** This repository presents descriptive analysis and exploratory visualizations. Although the notebook discusses factors useful for estimating prices, it **does not implement or evaluate a house-price prediction model**.
 
 ## 📌 Project Overview
