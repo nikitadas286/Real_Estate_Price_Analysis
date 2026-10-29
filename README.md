@@ -1,9 +1,5 @@
 #  Real Estate Price Analytics
 
-### Exploratory Data Analysis of King County House Sales Using Python
-
-> **Project scope:** This repository presents descriptive analysis and exploratory visualizations. Although the notebook discusses factors useful for estimating prices, it **does not implement or evaluate a house-price prediction model**.
-
 ##  Project Overview
 
 | Item | Details |
