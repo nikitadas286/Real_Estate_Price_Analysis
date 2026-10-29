@@ -1,10 +1,10 @@
-# 🏠 Real Estate Price Analytics
+#  Real Estate Price Analytics
 
 ### Exploratory Data Analysis of King County House Sales Using Python
 
 > **Project scope:** This repository presents descriptive analysis and exploratory visualizations. Although the notebook discusses factors useful for estimating prices, it **does not implement or evaluate a house-price prediction model**.
 
-## 📌 Project Overview
+##  Project Overview
 
 | Item | Details |
 | --- | --- |
@@ -16,7 +16,7 @@
 | Environment | Jupyter Notebook |
 | Libraries | Python, NumPy, Pandas, Matplotlib, Seaborn |
 
-## 🎯 Objectives
+##  Objectives
 
 - Explore the distribution of house sale prices and common property characteristics.
 - Identify missing data and prepare the dataset for analysis.
@@ -28,7 +28,7 @@
 
 > The CSV must be available locally beside the notebook when running it. If you also export the notebook to HTML, you can add `Real_Estate_Analytics.html` to the repository as a static report.```
 
-## 🧰 Tools and Techniques
+##  Tools and Techniques
 
 | Tool / Technique | How it is used |
 | --- | --- |
@@ -39,7 +39,7 @@
 | Seaborn | Count plots, scatter plots, box plots, and correlation heatmaps |
 | Jupyter Notebook | Combining executable code, outputs, explanations, and conclusions |
 
-## 🔎 Project Workflow
+##  Project Workflow
 
 ### 1. Data Loading and Understanding
 
@@ -79,7 +79,7 @@ The notebook investigates seven main questions:
 | 6 | How does construction year relate to price? | Scatter plot | Year built alone has a relatively weak relationship with price. |
 | 7 | How are housing features correlated? | Correlation heatmap | Living area, bathrooms, and construction grade show positive relationships with price. |
 
-## 📊 Key Results
+##  Key Results
 
 - **Average house price:** approximately **$540,088**.
 - **Median house price:** approximately **$450,000**.
@@ -91,7 +91,7 @@ The notebook investigates seven main questions:
 
 These findings describe **associations, not proven causal effects**. For example, waterfront homes may also differ from other homes in size, location, and quality.
 
-## 💡 Business Insights
+##  Business Insights
 
 **For buyers:** Compare properties on living area and quality as well as price; a newer construction year alone does not guarantee a higher market value.
 
@@ -99,6 +99,6 @@ These findings describe **associations, not proven causal effects**. For example
 
 **For real estate analysts:** Multiple property attributes should be considered together rather than relying on a single factor when assessing price patterns.
 
-## 🧾 Final Conclusion
+##  Final Conclusion
 
 The analysis transforms a housing dataset with missing entries into a more usable form and explores the relationships between sale prices and property characteristics. **Living area is strongly associated with price**, while **waterfront access, bathrooms, and construction quality** are also relevant. The results show why housing prices should be examined through multiple factors instead of construction year alone.
