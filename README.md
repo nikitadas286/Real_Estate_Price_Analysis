@@ -1,4 +1,4 @@
-#  Real Estate Price Analytics
+# 🏡 Real Estate Price Analytics
 
 ##  Project Overview
 
@@ -19,10 +19,6 @@
 - Investigate relationships between prices and living area, bathrooms, waterfront status, construction year, and construction grade.
 - Present findings with interpretable charts and written observations.
 - Support data-informed discussions about real estate pricing.
-
-
-
-> The CSV must be available locally beside the notebook when running it. If you also export the notebook to HTML, you can add `Real_Estate_Analytics.html` to the repository as a static report.```
 
 ##  Tools and Techniques
 
@@ -64,16 +60,68 @@ The notebook performs these operations:
 ### 3. Exploratory Data Analysis (EDA)
 
 The notebook investigates seven main questions:
+### Q1. What is the distribution of house prices?
 
-| # | Analysis question | Visualization | Main insight |
-| --- | --- | --- | --- |
-| 1 | How are house prices distributed? | Histogram | Prices are right-skewed, with fewer very expensive homes. |
-| 2 | Which bedroom counts are most common? | Count plot | Three- and four-bedroom homes are common. |
-| 3 | How are bathroom counts distributed? | Histogram | Bathroom counts describe the mix of housing configurations. |
-| 4 | How does living area relate to price? | Scatter plot | Larger living areas generally correspond to higher prices. |
-| 5 | Do waterfront homes command higher prices? | Box plot | Waterfront properties generally have higher prices. |
-| 6 | How does construction year relate to price? | Scatter plot | Year built alone has a relatively weak relationship with price. |
-| 7 | How are housing features correlated? | Correlation heatmap | Living area, bathrooms, and construction grade show positive relationships with price. |
+<img width="1331" height="628" alt="1 histogram" src="https://github.com/user-attachments/assets/da1c4de2-e016-4ade-aa5d-ee03a78c35fb" />
+
+
+**Observation:** House prices are right-skewed. The mean price is approximately **$540,088**, while the median is **$450,000**.
+
+**Conclusion:** Most homes fall in the lower-to-middle price ranges, with a relatively small number of high-priced properties pulling the average upward.
+
+### Q2. What is the distribution of bedrooms?
+
+<img width="1515" height="411" alt="2 bar chart" src="https://github.com/user-attachments/assets/2d4cad7f-36da-47f6-aa19-82ea195549d9" />
+
+
+**Observation:** Houses with **3 or 4 bedrooms** are the most common in the dataset.
+
+**Conclusion:** Three- and four-bedroom properties form a major segment of the King County housing market.
+
+### Q3. What is the distribution of bathrooms?
+
+<img width="1500" height="631" alt="3 hist" src="https://github.com/user-attachments/assets/d4c461e2-531b-4f59-b975-93a323e7c997" />
+
+
+**Observation:** Bathroom count has a **moderate positive correlation** with house price.
+
+**Conclusion:** Homes with more bathrooms generally command higher prices, although this is also related to overall house size.
+
+### Q4. Does living area influence house price?
+
+<img width="1162" height="627" alt="4 scatter" src="https://github.com/user-attachments/assets/234c528c-8d01-410f-9a6e-0d450f69c94f" />
+
+
+**Observation:** The scatter plot shows a **strong positive relationship** between living area and selling price, with a correlation of **0.702**.
+
+**Conclusion:** Larger homes generally sell for higher prices; living area is one of the strongest price-related factors examined.
+
+### Q5. Does a waterfront location increase house price?
+
+<img width="1208" height="620" alt="5 box plot" src="https://github.com/user-attachments/assets/886e5d56-3864-494b-b9dc-aefa38698349" />
+
+
+**Observation:** The box plot indicates that waterfront properties generally have higher selling prices than non-waterfront properties.
+
+**Conclusion:** Waterfront access is a premium property feature associated with higher market values.
+
+### Q6. How does the year a house was built affect its selling price?
+
+<img width="1297" height="640" alt="6 scatter" src="https://github.com/user-attachments/assets/50052b4f-77c5-456a-aab7-ebae22f00cfa" />
+
+
+**Observation:** The relationship between construction year and selling price is relatively weak. Newer homes are not always more expensive than older ones.
+
+**Conclusion:** Construction year alone is not a reliable indicator of house price.
+
+### Q7. How are different housing features related to each other?
+
+<img width="998" height="735" alt="7 heatmap" src="https://github.com/user-attachments/assets/6ffc89c6-f34f-4130-affb-6ac20e904184" />
+
+
+**Observation:** The heatmap shows positive associations between **living area, bathrooms, construction grade, and price**.
+
+**Conclusion:** Living area is particularly informative for understanding price differences, while multiple property features should be considered together.
 
 ##  Key Results
 
