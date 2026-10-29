@@ -98,3 +98,10 @@ These findings describe **associations, not proven causal effects**. For example
 ##  Final Conclusion
 
 The analysis transforms a housing dataset with missing entries into a more usable form and explores the relationships between sale prices and property characteristics. **Living area is strongly associated with price**, while **waterfront access, bathrooms, and construction quality** are also relevant. The results show why housing prices should be examined through multiple factors instead of construction year alone.
+
+## Author
+
+**Nikita Das**
+
+- [GitHub](https://github.com/nikitadas286)
+- [LinkedIn](https://www.linkedin.com/in/nikita-laki-das-91786b2b3/)
